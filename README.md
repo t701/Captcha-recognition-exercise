@@ -25,16 +25,17 @@ Provided 25 labeled CAPTCHA images for training. The task is to create a lightwe
 
 1. **Install necessary libraries**
 
-    Ensure OpenCV (cv2) and NumPy are installed:
+    Ensure OpenCV (cv2) and NumPy are installed (If there are many libraries, we can generate requirement.txt to streamline the setup):
 
 
         pip install opencv-python numpy
-2 **Training**** 
+2. **Training** 
     
     Run the training method using the provided sample captchas to generate character templates.
+    
         solver = Captcha()
         solver.train(path_to_samples) # Run this once
-3 **Inference**** 
+3. **Inference** 
 
     Initialize the Captcha class and call the instance method:
 
