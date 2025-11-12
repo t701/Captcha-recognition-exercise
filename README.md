@@ -39,6 +39,6 @@ Provided 25 labeled CAPTCHA images for training. The task is to create a lightwe
 
      Call the instance method.
 
-        solver(im_path='unseen_captcha.jpg', save_path='output.txt')
+        solver(im_path='sampleCaptchas/input/input100.jpg', save_path='predicted_text.txt')
     
     The result is stored in the output.txt file.
